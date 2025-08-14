@@ -19,7 +19,7 @@ function RadioGroup({
 
 function RadioGroupItem({
   className,
-  focused,
+  checked,
   ...props
 }: React.ComponentProps<typeof RadioGroupPrimitive.Item>) {
   return (
@@ -37,7 +37,7 @@ function RadioGroupItem({
       >
         <CircleIcon className={cn(
           "fill-primary absolute top-1/2 left-1/2 size-2 -translate-x-1/2 -translate-y-1/2",
-          focused && "fill-lime-custom"
+          checked && "fill-lime-custom"
           )} />
       </RadioGroupPrimitive.Indicator>
     </RadioGroupPrimitive.Item>

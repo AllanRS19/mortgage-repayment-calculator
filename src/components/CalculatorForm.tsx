@@ -143,7 +143,7 @@ const CalculatorForm = () => {
                                         focus === mortgageType.value && "border-lime-custom bg-lime-custom/10"
                                     )}
                                     >
-                                        <RadioGroupItem focused={focus === mortgageType.value} value={mortgageType.value} id={mortgageType.value} className={`${focus === mortgageType.value && "border-lime-custom !text-lime-custom"}`} onFocus={() => setFocus(mortgageType.value)} onBlur={() => setFocus("")} disabled={isCalculating} />
+                                        <RadioGroupItem checked={focus === mortgageType.value} value={mortgageType.value} id={mortgageType.value} className={`${focus === mortgageType.value && "border-lime-custom !text-lime-custom"}`} onFocus={() => setFocus(mortgageType.value)} onBlur={() => setFocus("")} disabled={isCalculating} />
                                         <Label htmlFor={mortgageType.value} className="w-full h-full cursor-pointer text-sm font-semibold text-slate-800">
                                             {mortgageType.title}
                                         </Label>
