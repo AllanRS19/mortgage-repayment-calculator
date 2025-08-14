@@ -41,7 +41,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/AllanRS19/mortgage-repayment-calculator](https://github.com/AllanRS19/mortgage-repayment-calculator)
-- Live Site URL: [https://browser-manager-extension-challenge.vercel.app/](https://browser-manager-extension-challenge.vercel.app/)
+- Live Site URL: [https://mortgage-repayment-calculator-silk.vercel.app/](https://mortgage-repayment-calculator-silk.vercel.app/)
 
 ## My process
 
